@@ -95,3 +95,44 @@ nav{
     }
 }
 
+:root {
+    --pink: #e91e63;
+    --teal: #009688;
+    --purple: #9c27b0;
+}
+    
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.btn {
+    background-color: var(--purple);
+    padding: 0.5em 1.5em;
+    font-size: 1.5em;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 1.5m 1.5em 1.5em 1.5em;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+}
+    
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 5px #00000040
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
