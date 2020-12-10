@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --pink: #e91e63;
+    --teal: #009688;
+    --purple: #9c27b0;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -94,19 +100,7 @@ nav{
         transform: translateX(0px);
     }
 }
-
-:root {
-    --pink: #e91e63;
-    --teal: #009688;
-    --purple: #9c27b0;
-}
-    
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    
+   
 .btn {
     background-color: var(--purple);
     padding: 0.5em 1.5em;
@@ -118,6 +112,9 @@ body{
     transition: transform 0.2s, box-shadow 0.2s;
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
     
 .btn:hover {
